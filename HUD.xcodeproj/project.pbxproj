@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26DC1643192B8788003DBB74 /* woodBackground.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 26DC1642192B8788003DBB74 /* woodBackground.jpeg */; };
+		26DC1645192B890F003DBB74 /* chromeBackground.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 26DC1644192B890F003DBB74 /* chromeBackground.jpeg */; };
+		26DC1647192B89BA003DBB74 /* metalBackground.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 26DC1646192B89BA003DBB74 /* metalBackground.jpeg */; };
 		75458974192A7FDD00ECB139 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75458973192A7FDD00ECB139 /* Foundation.framework */; };
 		75458976192A7FDD00ECB139 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75458975192A7FDD00ECB139 /* CoreGraphics.framework */; };
 		75458978192A7FDD00ECB139 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75458977192A7FDD00ECB139 /* UIKit.framework */; };
@@ -42,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26DC1642192B8788003DBB74 /* woodBackground.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodBackground.jpeg; sourceTree = "<group>"; };
+		26DC1644192B890F003DBB74 /* chromeBackground.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chromeBackground.jpeg; sourceTree = "<group>"; };
+		26DC1646192B89BA003DBB74 /* metalBackground.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = metalBackground.jpeg; sourceTree = "<group>"; };
 		75458970192A7FDD00ECB139 /* HUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75458973192A7FDD00ECB139 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75458975192A7FDD00ECB139 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -103,6 +109,9 @@
 			isa = PBXGroup;
 			children = (
 				75B93269192AD3560056AB19 /* track.gpx */,
+				26DC1642192B8788003DBB74 /* woodBackground.jpeg */,
+				26DC1644192B890F003DBB74 /* chromeBackground.jpeg */,
+				26DC1646192B89BA003DBB74 /* metalBackground.jpeg */,
 				7545897B192A7FDD00ECB139 /* HUD */,
 				75458998192A7FDE00ECB139 /* HUDTests */,
 				75458972192A7FDD00ECB139 /* Frameworks */,
@@ -253,7 +262,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26DC1645192B890F003DBB74 /* chromeBackground.jpeg in Resources */,
+				26DC1643192B8788003DBB74 /* woodBackground.jpeg in Resources */,
 				75458980192A7FDD00ECB139 /* InfoPlist.strings in Resources */,
+				26DC1647192B89BA003DBB74 /* metalBackground.jpeg in Resources */,
 				754589AB192A832400ECB139 /* Black.jpg in Resources */,
 				75B9326A192AD3560056AB19 /* track.gpx in Resources */,
 				7545898B192A7FDD00ECB139 /* Images.xcassets in Resources */,
