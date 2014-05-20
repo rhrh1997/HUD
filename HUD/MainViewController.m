@@ -33,7 +33,7 @@ CLLocationManager *locationManager;
     
     locationManager.delegate = self;
     locationManager.desiredAccuracy = kCLLocationAccuracyBest;
-    locationManager.distanceFilter = .1;
+    locationManager.distanceFilter = 1;
     
     [locationManager startUpdatingLocation];
     
@@ -41,25 +41,11 @@ CLLocationManager *locationManager;
     // Do any additional setup after loading the view.
 }
 
--(void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation*)newLocation
-fromLocation:(CLLocation *)oldLocation{
-    //simply get the speed provided by the phone from newLocation
-    NSLog(@"CHANGED LOCATION");
-    double gpsSpeed = newLocation.speed;
-    NSLog(@"Speed of Device is %f",newLocation.speed);
-    // alternative manual method
-    if(oldLocation != nil)
-    {
-        CLLocationDistance distanceChange = [newLocation getDistanceFrom:oldLocation];
-        NSTimeInterval sinceLastUpdate = [newLocation.timestamp
-                                          timeIntervalSinceDate:oldLocation.timestamp];
-        double calculatedSpeed = distanceChange / sinceLastUpdate;
-        
-                              
-        int myInt = (int)calculatedSpeed*2.23693629;
-        self.speedCalc.text = [NSString stringWithFormat:@"%d", myInt];
-    }
-    
+- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
+    CLLocation *loc = locations.lastObject;
+    double speed = loc.speed;
+    NSLog(@"%f", speed);
+    self.speedCalc.text = [NSString stringWithFormat:@"%f", speed];
 }
 
 
