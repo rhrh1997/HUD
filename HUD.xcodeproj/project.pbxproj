@@ -22,6 +22,13 @@
 		75458995192A7FDE00ECB139 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75458979192A7FDD00ECB139 /* CoreData.framework */; };
 		7545899D192A7FDE00ECB139 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7545899B192A7FDE00ECB139 /* InfoPlist.strings */; };
 		7545899F192A7FDE00ECB139 /* HUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7545899E192A7FDE00ECB139 /* HUDTests.m */; };
+		754589A9192A800700ECB139 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 754589A8192A800700ECB139 /* Storyboard.storyboard */; };
+		754589AB192A832400ECB139 /* Black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 754589AA192A832400ECB139 /* Black.jpg */; };
+		75B93261192AB7070056AB19 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B93260192AB7070056AB19 /* CoreLocation.framework */; };
+		75B93263192AB7170056AB19 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B93262192AB7170056AB19 /* MapKit.framework */; };
+		75B93265192AB7230056AB19 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B93264192AB7230056AB19 /* QuartzCore.framework */; };
+		75B93268192AB7430056AB19 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B93267192AB7430056AB19 /* MainViewController.m */; };
+		75B9326A192AD3560056AB19 /* track.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 75B93269192AD3560056AB19 /* track.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,14 @@
 		7545899A192A7FDE00ECB139 /* HUDTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HUDTests-Info.plist"; sourceTree = "<group>"; };
 		7545899C192A7FDE00ECB139 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7545899E192A7FDE00ECB139 /* HUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUDTests.m; sourceTree = "<group>"; };
+		754589A8192A800700ECB139 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		754589AA192A832400ECB139 /* Black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Black.jpg; sourceTree = "<group>"; };
+		75B93260192AB7070056AB19 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		75B93262192AB7170056AB19 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		75B93264192AB7230056AB19 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		75B93266192AB7430056AB19 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		75B93267192AB7430056AB19 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		75B93269192AD3560056AB19 /* track.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = track.gpx; path = HUD/track.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +75,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B93265192AB7230056AB19 /* QuartzCore.framework in Frameworks */,
+				75B93263192AB7170056AB19 /* MapKit.framework in Frameworks */,
+				75B93261192AB7070056AB19 /* CoreLocation.framework in Frameworks */,
 				75458976192A7FDD00ECB139 /* CoreGraphics.framework in Frameworks */,
 				7545897A192A7FDD00ECB139 /* CoreData.framework in Frameworks */,
 				75458978192A7FDD00ECB139 /* UIKit.framework in Frameworks */,
@@ -84,6 +102,7 @@
 		75458967192A7FDD00ECB139 = {
 			isa = PBXGroup;
 			children = (
+				75B93269192AD3560056AB19 /* track.gpx */,
 				7545897B192A7FDD00ECB139 /* HUD */,
 				75458998192A7FDE00ECB139 /* HUDTests */,
 				75458972192A7FDD00ECB139 /* Frameworks */,
@@ -103,6 +122,9 @@
 		75458972192A7FDD00ECB139 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				75B93264192AB7230056AB19 /* QuartzCore.framework */,
+				75B93262192AB7170056AB19 /* MapKit.framework */,
+				75B93260192AB7070056AB19 /* CoreLocation.framework */,
 				75458973192A7FDD00ECB139 /* Foundation.framework */,
 				75458975192A7FDD00ECB139 /* CoreGraphics.framework */,
 				75458977192A7FDD00ECB139 /* UIKit.framework */,
@@ -115,6 +137,9 @@
 		7545897B192A7FDD00ECB139 /* HUD */ = {
 			isa = PBXGroup;
 			children = (
+				754589A8192A800700ECB139 /* Storyboard.storyboard */,
+				75B93266192AB7430056AB19 /* MainViewController.h */,
+				75B93267192AB7430056AB19 /* MainViewController.m */,
 				75458984192A7FDD00ECB139 /* AppDelegate.h */,
 				75458985192A7FDD00ECB139 /* AppDelegate.m */,
 				7545898A192A7FDD00ECB139 /* Images.xcassets */,
@@ -127,6 +152,7 @@
 		7545897C192A7FDD00ECB139 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				754589AA192A832400ECB139 /* Black.jpg */,
 				7545897D192A7FDD00ECB139 /* HUD-Info.plist */,
 				7545897E192A7FDD00ECB139 /* InfoPlist.strings */,
 				75458981192A7FDD00ECB139 /* main.m */,
@@ -228,7 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				75458980192A7FDD00ECB139 /* InfoPlist.strings in Resources */,
+				754589AB192A832400ECB139 /* Black.jpg in Resources */,
+				75B9326A192AD3560056AB19 /* track.gpx in Resources */,
 				7545898B192A7FDD00ECB139 /* Images.xcassets in Resources */,
+				754589A9192A800700ECB139 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +279,7 @@
 				75458986192A7FDD00ECB139 /* AppDelegate.m in Sources */,
 				75458989192A7FDD00ECB139 /* HUD.xcdatamodeld in Sources */,
 				75458982192A7FDD00ECB139 /* main.m in Sources */,
+				75B93268192AB7430056AB19 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +478,7 @@
 				754589A4192A7FDE00ECB139 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		754589A5192A7FDE00ECB139 /* Build configuration list for PBXNativeTarget "HUDTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +487,7 @@
 				754589A7192A7FDE00ECB139 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
