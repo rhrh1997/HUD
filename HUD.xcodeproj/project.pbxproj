@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73972E2E192B07D7004A9D91 /* Hassaan is a lesbian in Resources */ = {isa = PBXBuildFile; fileRef = 73972E2D192B07D7004A9D91 /* Hassaan is a lesbian */; };
 		75458974192A7FDD00ECB139 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75458973192A7FDD00ECB139 /* Foundation.framework */; };
 		75458976192A7FDD00ECB139 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75458975192A7FDD00ECB139 /* CoreGraphics.framework */; };
 		75458978192A7FDD00ECB139 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75458977192A7FDD00ECB139 /* UIKit.framework */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		73972E2D192B07D7004A9D91 /* Hassaan is a lesbian */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Hassaan is a lesbian"; sourceTree = "<group>"; };
 		75458970192A7FDD00ECB139 /* HUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75458973192A7FDD00ECB139 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75458975192A7FDD00ECB139 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -102,6 +104,7 @@
 		75458967192A7FDD00ECB139 = {
 			isa = PBXGroup;
 			children = (
+				73972E2D192B07D7004A9D91 /* Hassaan is a lesbian */,
 				75B93269192AD3560056AB19 /* track.gpx */,
 				7545897B192A7FDD00ECB139 /* HUD */,
 				75458998192A7FDE00ECB139 /* HUDTests */,
@@ -255,6 +258,7 @@
 			files = (
 				75458980192A7FDD00ECB139 /* InfoPlist.strings in Resources */,
 				754589AB192A832400ECB139 /* Black.jpg in Resources */,
+				73972E2E192B07D7004A9D91 /* Hassaan is a lesbian in Resources */,
 				75B9326A192AD3560056AB19 /* track.gpx in Resources */,
 				7545898B192A7FDD00ECB139 /* Images.xcassets in Resources */,
 				754589A9192A800700ECB139 /* Storyboard.storyboard in Resources */,
