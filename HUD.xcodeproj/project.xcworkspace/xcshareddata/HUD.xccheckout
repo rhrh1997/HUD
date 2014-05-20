@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A34315CD-505A-4812-8C5C-3ED6DDD85B1F</string>
+	<string>B714C5D7-5D3C-4C59-A85F-C90AA41DA40E</string>
 	<key>IDESourceControlProjectName</key>
 	<string>HUD</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>5ABA6354-C382-42B4-977E-32EB1E3F83ED</key>
-		<string>https://github.com/rhrh1997/HUD</string>
+		<key>09AAD68F-F67A-49E3-B687-A78FD88220F9</key>
+		<string>https://github.com/rhrh1997/HUD.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>HUD.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>5ABA6354-C382-42B4-977E-32EB1E3F83ED</key>
+		<key>09AAD68F-F67A-49E3-B687-A78FD88220F9</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/rhrh1997/HUD</string>
+	<string>https://github.com/rhrh1997/HUD.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>5ABA6354-C382-42B4-977E-32EB1E3F83ED</string>
+	<string>09AAD68F-F67A-49E3-B687-A78FD88220F9</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>5ABA6354-C382-42B4-977E-32EB1E3F83ED</string>
+			<string>09AAD68F-F67A-49E3-B687-A78FD88220F9</string>
 			<key>IDESourceControlWCCName</key>
-			<string>HUD</string>
+			<string>HUD1</string>
 		</dict>
 	</array>
 </dict>
