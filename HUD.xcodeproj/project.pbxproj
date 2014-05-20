@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2600B537192BFAF400484D16 /* checkardBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 2600B536192BFAF400484D16 /* checkardBackground.png */; };
 		75458974192A7FDD00ECB139 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75458973192A7FDD00ECB139 /* Foundation.framework */; };
 		75458976192A7FDD00ECB139 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75458975192A7FDD00ECB139 /* CoreGraphics.framework */; };
 		75458978192A7FDD00ECB139 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75458977192A7FDD00ECB139 /* UIKit.framework */; };
@@ -22,7 +23,7 @@
 		75458995192A7FDE00ECB139 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75458979192A7FDD00ECB139 /* CoreData.framework */; };
 		7545899D192A7FDE00ECB139 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7545899B192A7FDE00ECB139 /* InfoPlist.strings */; };
 		7545899F192A7FDE00ECB139 /* HUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7545899E192A7FDE00ECB139 /* HUDTests.m */; };
-		754589A9192A800700ECB139 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 754589A8192A800700ECB139 /* Storyboard.storyboard */; };
+		754589A9192A800700ECB139 /* storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 754589A8192A800700ECB139 /* storyboard.storyboard */; };
 		754589AB192A832400ECB139 /* Black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 754589AA192A832400ECB139 /* Black.jpg */; };
 		75B93261192AB7070056AB19 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B93260192AB7070056AB19 /* CoreLocation.framework */; };
 		75B93263192AB7170056AB19 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B93262192AB7170056AB19 /* MapKit.framework */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2600B536192BFAF400484D16 /* checkardBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkardBackground.png; sourceTree = "<group>"; };
 		75458970192A7FDD00ECB139 /* HUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75458973192A7FDD00ECB139 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75458975192A7FDD00ECB139 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,7 +62,7 @@
 		7545899A192A7FDE00ECB139 /* HUDTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HUDTests-Info.plist"; sourceTree = "<group>"; };
 		7545899C192A7FDE00ECB139 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7545899E192A7FDE00ECB139 /* HUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUDTests.m; sourceTree = "<group>"; };
-		754589A8192A800700ECB139 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		754589A8192A800700ECB139 /* storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = storyboard.storyboard; sourceTree = "<group>"; };
 		754589AA192A832400ECB139 /* Black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Black.jpg; sourceTree = "<group>"; };
 		75B93260192AB7070056AB19 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		75B93262192AB7170056AB19 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -102,6 +104,7 @@
 		75458967192A7FDD00ECB139 = {
 			isa = PBXGroup;
 			children = (
+				2600B536192BFAF400484D16 /* checkardBackground.png */,
 				75B93269192AD3560056AB19 /* track.gpx */,
 				7545897B192A7FDD00ECB139 /* HUD */,
 				75458998192A7FDE00ECB139 /* HUDTests */,
@@ -137,7 +140,7 @@
 		7545897B192A7FDD00ECB139 /* HUD */ = {
 			isa = PBXGroup;
 			children = (
-				754589A8192A800700ECB139 /* Storyboard.storyboard */,
+				754589A8192A800700ECB139 /* storyboard.storyboard */,
 				75B93266192AB7430056AB19 /* MainViewController.h */,
 				75B93267192AB7430056AB19 /* MainViewController.m */,
 				75458984192A7FDD00ECB139 /* AppDelegate.h */,
@@ -260,7 +263,8 @@
 				754589AB192A832400ECB139 /* Black.jpg in Resources */,
 				75B9326A192AD3560056AB19 /* track.gpx in Resources */,
 				7545898B192A7FDD00ECB139 /* Images.xcassets in Resources */,
-				754589A9192A800700ECB139 /* Storyboard.storyboard in Resources */,
+				2600B537192BFAF400484D16 /* checkardBackground.png in Resources */,
+				754589A9192A800700ECB139 /* storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
